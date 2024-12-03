@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Novos e Seminovos</title>
+    <link rel="stylesheet" href="projeto.css"
+    media="all" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.header {
+    background: #000000;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.header .menu {
+    list-style: none;
+    display: flex;
+    margin: 0; /* Remove o espaço extra */
+    padding: 0; /* Remove o espaço extra */
+}
+
+.header .menu li {
+    margin: 0 15px;
+}
+
+
+.header .menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .menu a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 4rem;
+    color: #000000;
+}
+
+.carros {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.carro-card {
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.carro-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.carro-card h3 {
+    margin-bottom: 0.5rem;
+    color: #000000;
+}
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form input, .form textarea, .form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form button {
+    background: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+</style>
+    <header class="header">
+        <h1>Vcars</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#novos">Carros Novos</a></li>
+                <li><a href="#seminovos">Carros Seminovos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="novos" class="section">
+            <h2>Carros Novos</h2>
+            <div class="carros">
+                <div class="carro-card">
+                    <img src="img/68122-Banner-Ve--culo-826x241.png" alt="Carro Novo 1">
+                    <h3>Nivus</h3>
+                    <h5>Preço: R$ 119.990,00</h5>
+                </div>
+                <div class="carro-card">
+                    <img src="img/70716-Banner-Ve--culo-826x241.png" alt="Carro Novo 2">
+                    <h3>T-cross</h3>
+                    <h5>Preço: R$ 168.990,00</h5>
+                </div>
+                    <div class="carro-card">
+                        <img src="img/27589--Imagem-listagem-410x157.png" alt="Carro Novo 1">
+                        <h3>Virtus</h3>
+                        <h5>Preço: R$ 116.990,00</h5>
+                    </div>
+                    <div class="carro-card">
+                        <img src="img/36938--Imagem-listagem-410x157.png" alt="Carro Novo 2">
+                        <h3>Jetta GLI</h3>
+                        <h5>Preço: R$ 239.890,00</h5>
+                </div>
+            </div>
+        </section>
+
+        <section id="seminovos" class="section">
+            <h2>Carros Seminovos</h2>
+            <div class="carros">
+                <div class="carro-card">
+                    <img src="img/ccd48032-eb7c-460c-aa94-dd3d1853b2f520240822114718.jpeg" alt="Carro Seminovo 1">
+                    <h3>HB20 1.0 12V FLEX LIMITED PLUS MANUAL 2025</h3>
+                    <h5>Preço: R$ 70.000,00</h5>
+                </div>
+                <div class="carro-card">
+                    <img src="img/260e40f6-f640-4b6a-87dd-9c2f57e7857e20241018170847.jpeg" alt="Carro Seminovo 2">
+                    <h3>POLO 1.0 200 TSI COMFORTLINE AUTOMÁTICO 2018</h3>
+                    <h5>Preço: R$ 85.000,00</h5>
+                </div>
+                <div class="carro-card">
+                    <img src="img/0e57ad30-934b-47d3-a40b-d77f46dd461620241101173358.jpeg" alt="Carro Seminovo 1">
+                    <h3>TRACKER 1.2 TURBO FLEX PREMIER AUTOMÁTICO 2021</h3>
+                    <h5>Preço: R$ 112.990,00</h5>
+                </div>
+                <div class="carro-card">
+                    <img src="img/5ed81a84-87fc-474c-884a-783c9d00d7bd20241119094728.jpeg" alt="Carro Seminovo 2">
+                    <h3>TAOS 1.4 250 TSI TOTAL FLEX HIGHLINE AUTOMÁTICO 2023</h3>
+                    <h5>Preço: R$ 175.990,00</h5>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <form action="#" method="post" class="form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Carros Novos e Seminovos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
